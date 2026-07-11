@@ -635,3 +635,5 @@ async def all_messages(message: Message):
         name = message.text.strip()
         if len(name) < 2:
             return await message.answer(
+    "Bot started successfully"
+            )
